@@ -5,15 +5,15 @@ Building a Telegram bot using Python and Flask to automate certain tasks (primar
 <b>How to Build yours easily ?</b>
 
 <b>Clone this repository :</b>
-'''
+```
 git clone https://github.com/rexsimiloluwah/telebot.git
-'''
+```
 
 <b>Install the requirements and dependencies</b>
 
-'''
+```
 pip install -r requirements.txt
-'''
+```
 
 <p>Go to <a href="https://telegram.me/BotFather">BotFather</a> and follow the instructions intuitively to create a new Telegram bot. This will generate a token for the bot and BotName which will be specified by you.</p>
 
