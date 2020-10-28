@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Toyosi - A Mental Health conversational Bot">
+    <meta name=”robots” content="Mental health, Chatbot, Conversational, Toyosi, Telegram Bot.">
+    <meta name="keywords" content="Mental health, Chatbot, Conversational, Toyosi, Telegram Bot.">
+
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <title>Toyosi - Your Favourite Mental Health Bot</title>
+
+    <style>
+        *{
+            color: #141515;
+            background: #b3cde0;
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            
+        }
+
+        body, html{
+            min-height: 100vh;
+            position: relative;
+        }
+
+        .main{
+            width: 100%;
+            border-top: 5px solid #011f4b;
+        }
+
+        .content{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction:column;
+            position: absolute;
+            margin: 0;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 50%;
+        }
+
+        .content h1{
+            color: #011f4b;
+            font-weight: bold;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            padding: 0px 0px 15px 0px;
+        }
+
+        .content h1::first-letter{
+            font-size: 50px;
+        }
+
+        .content p{
+            color: #222;
+        }
+
+        .btns{
+            margin: 40px 0px 0px 0px;
+        }
+
+        .btns button{
+            color: #fff;
+            background: #011f4b;
+            padding: 15px;
+            border-radius: 10px;
+            outline: none;
+            border: 1px solid transparent;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 10px auto;
+        }
+
+        button i{
+            color: #fff;
+            background: none;
+            font-size: 15px;
+            border-left: 1px solid #fff;
+            padding: 0px 5px;
+        }
+
+        @media screen and (max-width : 768px){
+            .content{
+                width: 90%;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class = "main">
+        <div class = "content">
+
+        <h1>TOYOSI - Your Favourite Mental Health BOT 👋🏾.</h1>
+        <p>Let's talk about Life and other things bothering you, Be Free. I'm just a Computer.</p>
+        
+        <div class = "btns">
+            <a href="https://t.me/DoveTalksBot"><button>Get Started on Telegram   <i class = "bx bxl-telegram"></i></button></a>
+            <a href="mailto:rexsimiloluwa@gmail.com"><button>Contact Developer   <i class = "bx bx-envelope"></i></button></a>
+        </div>
+        
+        </div>
+    </div>
+    
+</body>
+</html>
